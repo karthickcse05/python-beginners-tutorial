@@ -1,0 +1,16 @@
+
+numbers = [5,8,6,2,3,5]
+#numbers.append(20)
+#numbers.insert(0,89)
+# numbers.remove(8)
+# numbers.clear()
+# numbers.pop(0)
+#print(numbers.index(54))
+# print(3 in numbers)
+#print(numbers.count(5))
+#numbers.sort()
+#numbers.reverse()
+numbers2 = numbers.copy()
+numbers.insert(0,56)
+print(numbers2)
+print(numbers)
